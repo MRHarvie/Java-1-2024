@@ -17,7 +17,7 @@ public class FunWithMathOperations {
 
         System.out.println("Please enter a third number:   ");
         int z = input.nextInt();
-        
+
         //Addition
         System.out.printf("\nSum of %d and %d and %d is %d", x, y, z, x+y+z);
         //Subtraction

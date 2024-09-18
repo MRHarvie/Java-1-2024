@@ -1,4 +1,4 @@
-package ca.nl.ca.mitchell.harvie;
+package ca.nl.ca.mitchell.harvie.HelloWorldBasics;
 import java.util.Scanner;
 /**
  * Having fun with the math operations

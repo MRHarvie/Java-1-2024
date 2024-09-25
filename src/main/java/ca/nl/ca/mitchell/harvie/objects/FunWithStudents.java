@@ -21,13 +21,13 @@ public class FunWithStudents {
         String y2 = input.next();
         secondStudent.setFirstName(y2);
 
-        Account account = new Account();
+        //Account account = new Account();
         System.out.println("Please enter a number:  ");
         String x = input.next();
-        account.setName(x);
+        //account.setName(x);
 
         System.out.printf("Students name: %s\n", firstStudent.getFirstName());
         System.out.printf("Second Students name: %s\n", secondStudent.getFirstName());
-        System.out.printf("Students account: %s", account.getName());
+       // System.out.printf("Students account: %s", account.getName());
     }
 }

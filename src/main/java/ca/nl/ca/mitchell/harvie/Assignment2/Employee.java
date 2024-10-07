@@ -26,16 +26,6 @@ public class Employee {
         }
     }
 
-    /**
-     * Method that applies a raise by modifying the annual salary by the percent.
-     * Multiplies the given annualSalary by percent to determine raise value
-     * Adds Raise value to annual salary
-     */
-    public void giveRaise(double percent) {
-        if (percent > 0) {
-            this.annualSalary += this.annualSalary * (percent/100);
-        }
-    }
 
     /**
      * Getter for first name
@@ -77,5 +67,15 @@ public class Employee {
      */
     public void setAnnualSalary(double annualSalary) {
         this.annualSalary = annualSalary;
+    }
+    /**
+     * Method that applies a raise by modifying the annual salary by the percent.
+     * Multiplies the given annualSalary by percent to determine raise value
+     * Adds Raise value to annual salary
+     */
+    public void giveRaise(double percent) {
+        if (percent > 0) {
+            this.annualSalary += this.annualSalary * (percent/100);
+        }
     }
 }

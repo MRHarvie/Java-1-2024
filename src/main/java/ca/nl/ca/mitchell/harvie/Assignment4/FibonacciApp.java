@@ -22,7 +22,7 @@ public class FibonacciApp {
         // Boolean variable to control the main application loop
         boolean running = true;
 
-        // Main application loop
+        // Main.java application loop
         while (running) {
             // Display the menu options for the user
             System.out.println("\nFibonacci Application Menu:");

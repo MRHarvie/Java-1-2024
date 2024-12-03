@@ -41,7 +41,6 @@ public class Invoice {
     /**
      * Method to add an invoice item to the invoice
      *
-     * @param item  Takes the item as a param
      * @return      Returns true or false if an invoice item was added
      */
     public boolean addInvoiceItem(InvoiceItem item) {
@@ -56,7 +55,6 @@ public class Invoice {
     /**
      * Remove an item from the invoice
      *
-     * @param index     Takes the index as a param
      * @return          Returns true or false if an invoice item was deleted or not
      */
     public boolean removeInvoiceItem(int index) {
@@ -102,7 +100,6 @@ public class Invoice {
 
     /**
      * Set the customer
-     * @param customer Customer
      */
     public void setCustomer(Customer customer) {
         this.customer = customer;
@@ -118,7 +115,6 @@ public class Invoice {
 
     /**
      * Set the invoice items
-     * @param invoiceitems One param of the array of invoice items
      */
     public void setInvoiceitems(InvoiceItem[] invoiceitems) {
         this.invoiceItems = invoiceitems;
@@ -134,7 +130,6 @@ public class Invoice {
 
     /**
      * Set the item count of the invoice
-     * @param itemCount Item count
      */
     public void setItemCount(int itemCount) {
         this.itemCount = itemCount;
@@ -150,7 +145,6 @@ public class Invoice {
 
     /**
      * Set the date on the invoice
-     * @param date Date param
      */
     public void setDate(LocalDate date) {
         this.date = date;
@@ -166,7 +160,6 @@ public class Invoice {
 
     /**
      * Set the payment terms
-     * @param paymentTerms Payment terms
      */
     public void setPaymentTerms(String paymentTerms) {
         this.paymentTerms = paymentTerms;
@@ -182,7 +175,6 @@ public class Invoice {
 
     /**
      * Set the invoice notes
-     * @param notes Takes in the param notes
      */
     public void setNotes(String notes) {
         this.notes = notes;
@@ -198,7 +190,6 @@ public class Invoice {
 
     /**
      * Set the sales tax rate on the invoice
-     * @param salesTaxRate One param of sales tax
      */
     public void setSalesTaxRate(double salesTaxRate) {
         this.salesTaxRate = salesTaxRate;

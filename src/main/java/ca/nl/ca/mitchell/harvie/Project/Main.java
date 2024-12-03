@@ -4,11 +4,11 @@ package ca.nl.ca.mitchell.harvie.Project;
 import java.time.LocalDate;
 
 /**
- * Fun with invoices class to create the invoice and grab items from the hardcoded database
+ * Main Class to create the invoice and grab items from the hardcoded Billable Items Database
  */
 public class Main {
     /**
-     * Demo invoice class to demo an invoice.
+     * Invoice class to demo an invoice.
      */
     public static void main(String[] args) {
         BillableItemsDatabase database = new BillableItemsDatabase();
